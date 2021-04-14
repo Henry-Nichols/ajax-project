@@ -1,0 +1,72 @@
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.background {
+  background: url(../images/Crypto\ Space\ \(3\).png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+  line-height: 0;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+header {
+  background-color: rgb(250, 198, 46);
+  color: white;
+  font-size: 20px;
+  height: 55px;
+}
+
+.fa-star {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.fa-search {
+  color: rgb(30, 52, 75);
+  font-size: 25px;
+  position: relative;
+  top: 25px;
+  right: 35px;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 100%;
+}
+
+input {
+  margin-top: 15px;
+  padding-top: 5px;
+  background-color: rgb(235, 232, 232);
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+::placeholder {
+  color: rgb(30, 52, 75);
+  font-size: 20px;
+  font-style: italic;
+}
+
+#start-btn {
+  color: white;
+  background-color: rgb(30, 52, 75);
+  position:fixed;
+  bottom: 275px;
+  left: 48%;
+  width: 60px;
+}

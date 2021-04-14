@@ -1,1 +1,4 @@
 /* exported data */
+var coinData = {
+
+};
