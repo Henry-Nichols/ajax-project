@@ -7,5 +7,6 @@ var coin = {
   image: String,
   symbol: String,
   currentPrice: Number,
-  percent: Number
+  percent: Number,
+  isFavorite: Boolean
 };

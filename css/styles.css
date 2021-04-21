@@ -22,7 +22,13 @@ header {
   color: white;
   font-size: 20px;
   height: 55px;
+}
 
+.fa-home {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 20px;
 }
 
 .fa-star {
@@ -37,7 +43,7 @@ header {
   position: relative;
   top: 25px;
   right: 35px;
-  cursor: pointer;
+  cursor: text;
 }
 
 .search-bar {
@@ -63,45 +69,93 @@ input {
   font-style: italic;
 }
 
-.splash-screen {
-  position: fixed;
-  bottom:5px;
-  left: 44%;
-}
-
 #start-btn {
   color: white;
+  font-size: 30px;
   background-color: rgb(30, 52, 75);
-  padding: 20px 45px 20px 45px;
-  width: 60px;
+  margin-top: 350px;
+  height: 70px;
+  width: 200px;
   outline: solid rgb(30, 52, 75);
-  outline-offset: 5px;
+  outline-offset: 9px;
+  outline-width: 2px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .coin-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   margin: 20px;
 }
 
 .info-div {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.price-div {
+  display: flex;
+  align-items: center;
 }
 
 .coin-img {
-  width: 80px;
+  width: 50px;
+  height: 50px;
   margin-right: 20px;
   margin-left: 20px;
 }
 
 .star-icon {
   color: rgb(250, 198, 46);
+  font-size: 20px;
 }
 
-.star-container {
+.star-icon-clicked {
+  color: rgb(250, 198, 46);
+  font-size: 20px;
+}
+
+ul {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.coin-list {
+  height: 50px;
+  cursor: pointer;
+}
+
+.coin-name {
+  font-size: 25px;
+}
+
+.coin-symbol {
+  color: rgb(161, 161, 161);
+  margin-left: 20px;
+}
+
+.coin-price {
+font-size: 20px;
+font-weight: 600;
+margin-right: 20px;
+}
+
+.coin-percent-up {
+  color:lightgreen;
+}
+
+.coin-percent-down {
+  color: red;
 }

@@ -24,7 +24,7 @@
 .search-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .btn-search {
@@ -34,17 +34,4 @@
 
 .hidden {
   display: none;
-}
-
-.list {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.coin-list {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
 }
