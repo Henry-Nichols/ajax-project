@@ -8,11 +8,57 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
 </head>
 <body>
-  <header>
+
+  <div class="splash-screen hidden">
+    <div class="button-container">
+      <button id="start-btn">START NOW</button>
+    </div>
+  </div>
+
+
+  <header class="container">
+    <div class="row">
+      <div class="column-full nav">
+        <h2 id="title">Crypto Galaxy</h2>
+        <div class="nav-buttons">
+          <i id= "home-button" class="fas fa-home"></i>
+          <i id="wishlist" class="fas fa-star"></i>
+        </div>
+
+      </div>
+    </div>
   </header>
+
   <main>
+
+    <div class="search-container">
+
+      <div class="row-search">
+        <div class="column-full search-bar">
+          <div class="btn-search">
+            <input id="search-coin" type="text" class="search" placeholder="Search..." name="search">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="coin-div" class="column-full">
+          <ul id="list">
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
