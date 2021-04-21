@@ -1,4 +1,11 @@
 /* exported data */
-var coinData = {
+var coins = [];
 
+var coin = {
+  id: Number,
+  name: String,
+  image: String,
+  symbol: String,
+  currentPrice: Number,
+  percent: Number
 };

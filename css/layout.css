@@ -9,7 +9,9 @@
 }
 
 .row-search {
-  width: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .nav {
@@ -21,7 +23,8 @@
 
 .search-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
 }
 
 .btn-search {
@@ -31,4 +34,17 @@
 
 .hidden {
   display: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.coin-list {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
 }
